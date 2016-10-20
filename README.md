@@ -47,5 +47,6 @@ Command Descriptions:
  c ID          Clear breakpoint with given ID, use ID 'all' to clear all.
  clear         Clear all breakpoints, memory watches, and register watches.
  d [ADDR]
+ Emu86>q
  ~~~
-Emu86>q
+
