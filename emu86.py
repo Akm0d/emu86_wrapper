@@ -18,12 +18,6 @@ while i < len(sys.argv):
     else: commands.append(sys.argv[i] + " " )
     i += 1
 
-# Call make before running the temrinal
-# Expect an error code of 0
-if not os.system("make") == 0:
-    print("\nMake was not successful\n")
-    exit(1)
-
 # Create the emu86 process
 emu = pexpect.spawn('emu86')
 
