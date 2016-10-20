@@ -1,11 +1,11 @@
 # emu86_wrapper
 BYU ECEN 425 emu86 command line tool
-
-Runs emu86 and passes it the arguments to this script one at a time
-Single letter arguments are passed with the next argument if it is longer than 1 character
+~~~
+Runs emu86 and passes it the arguments to this script one at a time.
+Single letter arguments are passed with the next argument if it is longer than 1 character.
 passing a "B" "C" or "T" will be turned into ctrl + that letter in lowercase
 passing a "W" and then a number will delay for that many milliseconds
-
+~~~
 # EXAMPLES:
 $ ./emu86.py l yak.bin t 750 e B q
 ~~~
