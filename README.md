@@ -8,7 +8,7 @@ passing a "W" and then a number will delay for that many milliseconds
 
 # EXAMPLES:
 $ ./emu86.py l yak.bin t 750 e B q
-
+~~~
 OUTPUT:
 Welcome to the BYU ECEn 425 8086 simulator.
 For a list of commands, enter h or ?.
@@ -20,9 +20,9 @@ Tick inverval set to 750.
 Emu86>e
 < Manual break > - Program not yet terminated.
 Emu86>q
-
+~~~
 $ ./emu86.py h q
-
+~~~
 OUTPUT:
 Welcome to the BYU ECEn 425 8086 simulator.
 For a list of commands, enter h or ?.
@@ -47,4 +47,5 @@ Command Descriptions:
  c ID          Clear breakpoint with given ID, use ID 'all' to clear all.
  clear         Clear all breakpoints, memory watches, and register watches.
  d [ADDR]
+ ~~~
 Emu86>q
